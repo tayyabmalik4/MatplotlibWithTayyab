@@ -2,7 +2,7 @@
 # ///////to show the graphical line plot than we use line plot function in matplotlib
 
 # ////import matplotlib
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 
 days =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 tem=[36.6,37,37.7,39,40,36.8,43,44,45,45.5,40,44,34,47,46] 

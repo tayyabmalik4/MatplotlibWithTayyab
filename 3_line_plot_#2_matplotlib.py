@@ -40,7 +40,7 @@ plt.grid(color='b', linestyle='-',linewidth=2)
 plt.plot(days,temp,'go--',linewidth=2,markersize=10,label='Karachi Temperature')
 plt.plot(days,l_temp,'ro:',linewidth=2,markersize=10,label='Lahore Temperature')
 
-
+ 
 # //////When we want to change the fontsize of title and xy variables than we use fontsize function\
 # /////linit of the axis
 plt.axis([0,20,30,50])
