@@ -1,24 +1,23 @@
-# (10)**************************Subplot in matplotlib*************************
+# (11)********************************Saving figure**************************************
+# ///////when we want to save the graph than we use savefig function 
+# //////we also the save figure directly when figure is showing
+
 
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-
-# /////this is the subplot function arguments first arg is rows, 2nd arg is colmns and 3rd arg is indexs
-# plt.subplot(2,2,1)
-# plt.pie([1])
-
-# plt.subplot(2,2,2)
-# plt.pie([1,2])
-
-# plt.subplot(2,2,3) 
-# plt.pie([1,2,3])
-
-# plt.subplot(2,2,4)
-# plt.pie([1,2,3,4])
+plt.pie([40,30,20],autopct="%0.1f%%")
+# //////we must input the name of the file and if we want to save the figure in spacific directry than we also input the path
+# //////if we don't input the file than default save in the current directry which we work now
+# /////dpi(dot per inch) function is use to manage the resolution
+#  //////quality means that the save figure quality
+# //////facecolor means the background color of the figure
+# plt.savefig('pie_chart', dpi=100,quality=99,facecolor='g',)
 # plt.show()
 
-# ////if we want to 6 graphs than we creat the function as following
+
+
+# ////////previous data-------------------------------
 plt.figure(figsize=(13,13))
 # //////1st
 plt.subplot(3,2,1)
@@ -70,17 +69,6 @@ temp=[33,34,35,36,37,37.6,41,39,41,36,39,45,35,45,39]
 plt.plot(days,temp,'go--',linewidth=2,markersize=10,label='Karachi Temperature')
 plt.legend(loc=4)
 
+# //////to saving the figure 
+# plt.savefig('All figures are in one figure')
 plt.show()
-
-
-# /////if we want to plot the 9 graphs than we use this function
-# plt.subplot(331)
-# plt.subplot(332)
-# plt.subplot(333)
-# plt.subplot(334)
-# plt.subplot(335)
-# plt.subplot(336)
-# plt.subplot(337)
-# plt.subplot(338)
-# plt.subplot(339)
-# plt.show()
