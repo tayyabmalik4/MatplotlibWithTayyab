@@ -1,4 +1,4 @@
-# ******************line plot using matplotlib part 2****************
+# (3)******************line plot using matplotlib part 2****************
 
 # ////import matplotlib
 from matplotlib import colors

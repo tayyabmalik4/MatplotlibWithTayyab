@@ -1,4 +1,4 @@
-# ***********************Scatter Plot in Matplotlib*********************************
+# (7)***********************Scatter Plot in Matplotlib*********************************
 
 import matplotlib.pyplot as plt
 import numpy as np

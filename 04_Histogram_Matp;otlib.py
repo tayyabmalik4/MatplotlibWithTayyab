@@ -1,4 +1,4 @@
-# *************************************Histogram in matplotlib*****************************
+# (4)*************************************Histogram in matplotlib*****************************
 
 import matplotlib.pyplot as plt
 import numpy as np 

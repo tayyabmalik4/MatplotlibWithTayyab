@@ -1,4 +1,4 @@
-# *************line plot in matplotlib*************
+# (2)*************line plot in matplotlib*************
 # ///////to show the graphical line plot than we use line plot function in matplotlib
 
 # ////import matplotlib

@@ -1,4 +1,4 @@
-# ******************************bar chart part 2 in matplotlib*********************
+# (6)******************************bar chart part 2 in matplotlib*********************
 
 import matplotlib.pyplot as plt
 import numpy as np
